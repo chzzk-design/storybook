@@ -1,0 +1,12 @@
+{
+  "name": "chzzk-design",
+  "private": true,
+  "scripts": {
+    "storybook": "pnpm --filter @chzzk-ds/storybook storybook",
+    "build": "pnpm --filter @chzzk-ds/storybook build",
+    "convert": "node scripts/convert-css-tokens.mjs"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
