@@ -1,0 +1,28 @@
+{
+  "ref": {
+    "stroke": {
+      "width": {
+        "0": {
+          "$value": "0",
+          "$type": "dimension"
+        },
+        "5": {
+          "$value": "0.5",
+          "$type": "dimension"
+        },
+        "10": {
+          "$value": "1",
+          "$type": "dimension"
+        },
+        "15": {
+          "$value": "1.5",
+          "$type": "dimension"
+        },
+        "20": {
+          "$value": "2",
+          "$type": "dimension"
+        }
+      }
+    }
+  }
+}

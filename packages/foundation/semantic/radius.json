@@ -1,0 +1,50 @@
+{
+  "sem": {
+    "corner": {
+      "radius": {
+        "2x": {
+          "small": {
+            "$value": "2",
+            "$type": "dimension"
+          },
+          "large": {
+            "$value": "20",
+            "$type": "dimension"
+          }
+        },
+        "x": {
+          "small": {
+            "$value": "4",
+            "$type": "dimension"
+          },
+          "large": {
+            "$value": "16",
+            "$type": "dimension"
+          }
+        },
+        "small": {
+          "$value": "6",
+          "$type": "dimension"
+        },
+        "medium": {
+          "$value": "8",
+          "$type": "dimension"
+        },
+        "large": {
+          "$value": "12",
+          "$type": "dimension"
+        },
+        "3x": {
+          "large": {
+            "$value": "24",
+            "$type": "dimension"
+          }
+        },
+        "circular": {
+          "$value": "9999",
+          "$type": "dimension"
+        }
+      }
+    }
+  }
+}

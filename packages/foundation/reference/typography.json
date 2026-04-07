@@ -1,0 +1,218 @@
+{
+  "ref": {
+    "typography": {
+      "font": {
+        "family": {
+          "nemony": {
+            "$value": "Sandoll Nemony2 TTF",
+            "$type": "fontFamily"
+          },
+          "pretendard": {
+            "$value": "Pretendard",
+            "$type": "fontFamily"
+          }
+        },
+        "size": {
+          "10": {
+            "$value": "10",
+            "$type": "dimension"
+          },
+          "11": {
+            "$value": "11",
+            "$type": "dimension"
+          },
+          "12": {
+            "$value": "12",
+            "$type": "dimension"
+          },
+          "13": {
+            "$value": "13",
+            "$type": "dimension"
+          },
+          "14": {
+            "$value": "14",
+            "$type": "dimension"
+          },
+          "15": {
+            "$value": "15",
+            "$type": "dimension"
+          },
+          "16": {
+            "$value": "16",
+            "$type": "dimension"
+          },
+          "17": {
+            "$value": "17",
+            "$type": "dimension"
+          },
+          "18": {
+            "$value": "18",
+            "$type": "dimension"
+          },
+          "19": {
+            "$value": "19",
+            "$type": "dimension"
+          },
+          "20": {
+            "$value": "20",
+            "$type": "dimension"
+          },
+          "22": {
+            "$value": "22",
+            "$type": "dimension"
+          },
+          "24": {
+            "$value": "24",
+            "$type": "dimension"
+          },
+          "26": {
+            "$value": "26",
+            "$type": "dimension"
+          },
+          "28": {
+            "$value": "28",
+            "$type": "dimension"
+          },
+          "32": {
+            "$value": "32",
+            "$type": "dimension"
+          },
+          "36": {
+            "$value": "36",
+            "$type": "dimension"
+          },
+          "40": {
+            "$value": "40",
+            "$type": "dimension"
+          }
+        },
+        "weight": {
+          "heavy": {
+            "$value": "800",
+            "$type": "fontWeight"
+          },
+          "bold": {
+            "$value": "700",
+            "$type": "fontWeight"
+          },
+          "semi": {
+            "bold": {
+              "$value": "600",
+              "$type": "fontWeight"
+            }
+          },
+          "medium": {
+            "$value": "500",
+            "$type": "fontWeight"
+          },
+          "regular": {
+            "$value": "400",
+            "$type": "fontWeight"
+          }
+        }
+      },
+      "line": {
+        "height": {
+          "12": {
+            "$value": "12",
+            "$type": "dimension"
+          },
+          "13": {
+            "$value": "13",
+            "$type": "dimension"
+          },
+          "14": {
+            "$value": "14",
+            "$type": "dimension"
+          },
+          "15": {
+            "$value": "15",
+            "$type": "dimension"
+          },
+          "16": {
+            "$value": "16",
+            "$type": "dimension"
+          },
+          "17": {
+            "$value": "17",
+            "$type": "dimension"
+          },
+          "18": {
+            "$value": "18",
+            "$type": "dimension"
+          },
+          "19": {
+            "$value": "19",
+            "$type": "dimension"
+          },
+          "20": {
+            "$value": "20",
+            "$type": "dimension"
+          },
+          "21": {
+            "$value": "21",
+            "$type": "dimension"
+          },
+          "22": {
+            "$value": "22",
+            "$type": "dimension"
+          },
+          "23": {
+            "$value": "23",
+            "$type": "dimension"
+          },
+          "24": {
+            "$value": "24",
+            "$type": "dimension"
+          },
+          "28": {
+            "$value": "28",
+            "$type": "dimension"
+          },
+          "30": {
+            "$value": "30",
+            "$type": "dimension"
+          },
+          "32": {
+            "$value": "32",
+            "$type": "dimension"
+          },
+          "34": {
+            "$value": "34",
+            "$type": "dimension"
+          },
+          "36": {
+            "$value": "36",
+            "$type": "dimension"
+          },
+          "40": {
+            "$value": "40",
+            "$type": "dimension"
+          },
+          "44": {
+            "$value": "44",
+            "$type": "dimension"
+          },
+          "48": {
+            "$value": "48",
+            "$type": "dimension"
+          }
+        }
+      },
+      "letter": {
+        "spacing": {
+          "0": {
+            "$value": "0",
+            "$type": "dimension"
+          },
+          "": {
+            "3": {
+              "$value": "-0.30000001192092896",
+              "$type": "dimension"
+            }
+          }
+        }
+      }
+    }
+  }
+}
