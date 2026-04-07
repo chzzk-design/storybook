@@ -1,0 +1,42 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.label {
+  font-family: monospace;
+  font-size: 13px;
+  min-width: 200px;
+}
+
+.bar {
+  height: 24px;
+  border-radius: 4px;
+  transition: width 0.2s;
+}
+
+.value {
+  font-family: monospace;
+  font-size: 12px;
+  opacity: 0.6;
+  min-width: 50px;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+.sectionTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
