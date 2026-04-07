@@ -1,0 +1,12 @@
+{
+  "name": "@chzzk-ds/tokens",
+  "version": "0.0.1",
+  "private": true,
+  "description": "치지직 디자인 토큰 SSOT (DTCG 표준)",
+  "main": "index.json",
+  "files": [
+    "index.json",
+    "reference/",
+    "semantic/"
+  ]
+}

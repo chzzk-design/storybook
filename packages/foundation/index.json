@@ -1,0 +1,22 @@
+{
+  "$name": "Chzzk Design Tokens",
+  "$version": "0.0.1",
+  "$source": "Figma Variables API",
+  "$defaultTheme": "dark",
+  "collections": {
+    "reference": [
+      "reference/color.json",
+      "reference/typography.json",
+      "reference/spacing.json",
+      "reference/radius.json",
+      "reference/shadow.json"
+    ],
+    "semantic": [
+      "semantic/color.json",
+      "semantic/typography.json",
+      "semantic/spacing.json",
+      "semantic/radius.json",
+      "semantic/shadow.json"
+    ]
+  }
+}
