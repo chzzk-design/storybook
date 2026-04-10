@@ -1,6 +1,6 @@
 {
   "$name": "Chzzk Design Tokens",
-  "$version": "0.0.1",
+  "$version": "0.0.2",
   "$source": "Figma Variables API",
   "$defaultTheme": "dark",
   "collections": {
@@ -16,7 +16,9 @@
       "semantic/typography.json",
       "semantic/spacing.json",
       "semantic/radius.json",
-      "semantic/shadow.json"
+      "semantic/shadow.json",
+      "semantic/visibility.json",
+      "semantic/typography-composite.json"
     ]
   }
 }

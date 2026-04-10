@@ -1,1 +1,60 @@
-{}
+{
+  "sem": {
+    "layout": {
+      "spacing": {
+        "none": {
+          "$value": "{ref.layout.spacing.0}",
+          "$type": "dimension"
+        },
+        "4x-small": {
+          "$value": "{ref.layout.spacing.2}",
+          "$type": "dimension"
+        },
+        "3x-small": {
+          "$value": "{ref.layout.spacing.4}",
+          "$type": "dimension"
+        },
+        "2x-small": {
+          "$value": "{ref.layout.spacing.6}",
+          "$type": "dimension"
+        },
+        "x-small": {
+          "$value": "{ref.layout.spacing.8}",
+          "$type": "dimension"
+        },
+        "small": {
+          "$value": "{ref.layout.spacing.10}",
+          "$type": "dimension"
+        },
+        "medium": {
+          "$value": "{ref.layout.spacing.12}",
+          "$type": "dimension"
+        },
+        "large": {
+          "$value": "{ref.layout.spacing.16}",
+          "$type": "dimension"
+        },
+        "x-large": {
+          "$value": "{ref.layout.spacing.20}",
+          "$type": "dimension"
+        },
+        "2x-large": {
+          "$value": "{ref.layout.spacing.24}",
+          "$type": "dimension"
+        },
+        "3x-large": {
+          "$value": "{ref.layout.spacing.28}",
+          "$type": "dimension"
+        },
+        "4x-large": {
+          "$value": "{ref.layout.spacing.32}",
+          "$type": "dimension"
+        },
+        "5x-large": {
+          "$value": "{ref.layout.spacing.36}",
+          "$type": "dimension"
+        }
+      }
+    }
+  }
+}

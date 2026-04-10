@@ -1,0 +1,211 @@
+.page {
+  background: var(--sem-color-background-neutral-base);
+  padding: var(--sem-layout-spacing-4x-large);
+  display: flex;
+  flex-direction: column;
+  max-width: 1932px;
+  margin: 0 auto;
+  font-family: var(--sem-typography-font-style-default), -apple-system, sans-serif;
+  letter-spacing: var(--sem-typography-letter-spacing-pretendard);
+}
+
+/* Title Group */
+.titleGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-small);
+  padding-bottom: var(--sem-layout-spacing-4x-large);
+}
+
+.pageTitle {
+  font-size: var(--sem-typography-title-pretendard-26-700-font-size);
+  line-height: var(--sem-typography-title-pretendard-26-700-line-height);
+  font-weight: var(--sem-typography-title-pretendard-26-700-font-weight);
+  letter-spacing: var(--sem-typography-title-pretendard-26-700-letter-spacing);
+  color: var(--sem-color-content-neutral-primary);
+  margin: 0;
+}
+
+/* Description */
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.bulletList {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.bulletListAsterisk {
+  display: flex;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.dot {
+  width: 3px;
+  height: 3px;
+  min-width: 3px;
+  border-radius: 50%;
+  background: var(--sem-color-content-neutral-alpha-strongest);
+  margin-top: 8px;
+}
+
+.bulletText {
+  font-size: var(--sem-typography-body-pretendard-14-400-font-size);
+  line-height: var(--sem-typography-body-pretendard-14-400-line-height);
+  font-weight: var(--sem-typography-body-pretendard-14-400-font-weight);
+  letter-spacing: var(--sem-typography-body-pretendard-14-400-letter-spacing);
+  color: var(--sem-color-content-neutral-alpha-strongest);
+}
+
+.bulletTextBold {
+  font-weight: var(--sem-typography-body-pretendard-14-700-font-weight);
+}
+
+.bulletTextMuted {
+  color: var(--sem-color-content-neutral-alpha-base);
+}
+
+/* Asterisk (*) — dot 대체, 수직 중앙 정렬 */
+.asterisk {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  font-size: var(--sem-typography-body-pretendard-14-400-font-size);
+  line-height: var(--sem-typography-body-pretendard-14-400-line-height);
+  font-weight: var(--sem-typography-body-pretendard-14-400-font-weight);
+  letter-spacing: var(--sem-typography-body-pretendard-14-400-letter-spacing);
+  color: var(--sem-color-content-neutral-alpha-base);
+  white-space: nowrap;
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background: var(--sem-color-border-neutral-alpha-weak);
+  border: none;
+  margin: 0;
+}
+
+/* Icon List Section */
+.iconListSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-2x-large);
+  padding-top: var(--sem-layout-spacing-4x-large);
+}
+
+.sectionTitle {
+  font-size: var(--sem-typography-title-pretendard-20-700-font-size);
+  line-height: var(--sem-typography-title-pretendard-20-700-line-height);
+  font-weight: var(--sem-typography-title-pretendard-20-700-font-weight);
+  letter-spacing: var(--sem-typography-title-pretendard-20-700-letter-spacing);
+  color: var(--sem-color-content-neutral-primary);
+  margin: 0;
+}
+
+/* Icon Grid */
+.iconGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--sem-layout-spacing-2x-large);
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+/* Icon Sample Wrapper — 툴팁 포지셔닝 기준 */
+.iconSampleWrapper {
+  position: relative;
+  cursor: default;
+}
+
+/* Icon Sample */
+.iconSample {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: var(--sem-layout-spacing-large);
+  background: var(--sem-color-surface-neutral-weaker);
+  border: 1px solid var(--sem-color-border-neutral-alpha-weaker);
+  border-radius: var(--sem-radius-medium);
+  overflow: clip;
+}
+
+/* Interaction Overlay */
+.iconSample::after {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  background: rgba(255, 255, 255, 0);
+  pointer-events: none;
+  transition: background 0.15s;
+}
+
+.iconSampleWrapper:hover .iconSample::after {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Icon SVG Container */
+.iconSvg {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconSvg svg {
+  width: 24px;
+  height: 24px;
+}
+
+.iconSvg svg path,
+.iconSvg svg circle,
+.iconSvg svg rect,
+.iconSvg svg polygon,
+.iconSvg svg line,
+.iconSvg svg polyline,
+.iconSvg svg ellipse {
+  fill: var(--sem-color-content-neutral-primary);
+}
+
+/* Tooltip */
+.tooltip {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--sem-layout-spacing-x-small);
+  background: var(--sem-color-surface-neutral-weaker);
+  border-radius: var(--sem-radius-medium);
+  box-shadow:
+    0px 6px 6px 0px rgba(0, 0, 0, 0.3),
+    0px 6px 18px 0px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+  z-index: 10;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+
+.iconSampleWrapper:hover .tooltip {
+  opacity: 1;
+}
+
+.tooltipText {
+  font-size: var(--sem-typography-label-pretendard-12-400-font-size);
+  line-height: var(--sem-typography-label-pretendard-12-400-line-height);
+  font-weight: var(--sem-typography-label-pretendard-12-400-font-weight);
+  letter-spacing: var(--sem-typography-label-pretendard-12-400-letter-spacing);
+  color: var(--sem-color-content-neutral-alpha-strongest);
+}

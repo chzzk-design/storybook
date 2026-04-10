@@ -1,0 +1,8 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(2, 4.5)">
+<g>
+<path d="M0 1C0 0.447715 0.447716 0 1 0H19C19.5523 0 20 0.447715 20 1V5C20 5.55228 19.5523 6 19 6H1C0.447716 6 0 5.55228 0 5V1Z" fill="black"/>
+<path d="M0 10C0 9.44772 0.447716 9 1 9H19C19.5523 9 20 9.44772 20 10V14C20 14.5523 19.5523 15 19 15H1C0.447716 15 0 14.5523 0 14V10Z" fill="black"/>
+</g>
+</g>
+</svg>

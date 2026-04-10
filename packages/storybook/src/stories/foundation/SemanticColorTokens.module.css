@@ -1,0 +1,406 @@
+.page {
+  background: var(--sem-color-background-neutral-base);
+  padding: var(--sem-layout-spacing-4x-large);
+  display: flex;
+  flex-direction: column;
+  max-width: 1932px;
+  margin: 0 auto;
+  font-family: var(--sem-typography-font-style-default), -apple-system, sans-serif;
+  letter-spacing: var(--sem-typography-letter-spacing-pretendard);
+}
+
+/* Section — 간격을 padding으로 처리 */
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title Group */
+.titleGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-small);
+}
+
+.pageTitle {
+  font-size: var(--sem-typography-title-pretendard-26-700-font-size);
+  line-height: var(--sem-typography-title-pretendard-26-700-line-height);
+  font-weight: var(--sem-typography-title-pretendard-26-700-font-weight);
+  letter-spacing: var(--sem-typography-title-pretendard-26-700-letter-spacing);
+  color: var(--sem-color-content-neutral-primary);
+  margin: 0;
+}
+
+/* Description — Bullet List */
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-4x-small);
+  margin: 0;
+  padding: 0;
+}
+
+.bulletList {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sem-layout-spacing-2x-small);
+}
+
+.dot {
+  width: 3px;
+  height: 3px;
+  min-width: 3px;
+  border-radius: 50%;
+  background: var(--sem-color-content-neutral-alpha-strongest);
+  margin-top: 8px;
+}
+
+.bulletText {
+  font-size: var(--sem-typography-body-pretendard-14-400-font-size);
+  line-height: var(--sem-typography-body-pretendard-14-400-line-height);
+  font-weight: var(--sem-typography-body-pretendard-14-400-font-weight);
+  letter-spacing: var(--sem-typography-body-pretendard-14-400-letter-spacing);
+  color: var(--sem-color-content-neutral-alpha-strongest);
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background: var(--sem-color-border-neutral-alpha-weak);
+  border: none;
+  margin: 0;
+}
+
+/* Section Title Group */
+.sectionTitleGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-small);
+}
+
+.sectionTitle {
+  font-size: var(--sem-typography-title-pretendard-20-700-font-size);
+  line-height: var(--sem-typography-title-pretendard-20-700-line-height);
+  font-weight: var(--sem-typography-title-pretendard-20-700-font-weight);
+  letter-spacing: var(--sem-typography-title-pretendard-20-700-letter-spacing);
+  color: var(--sem-color-content-neutral-primary);
+  margin: 0;
+}
+
+.sectionDescription {
+  font-size: var(--sem-typography-body-pretendard-14-400-font-size);
+  line-height: var(--sem-typography-body-pretendard-14-400-line-height);
+  font-weight: var(--sem-typography-body-pretendard-14-400-font-weight);
+  letter-spacing: var(--sem-typography-body-pretendard-14-400-letter-spacing);
+  color: var(--sem-color-content-neutral-alpha-strongest);
+  margin: 0;
+}
+
+/* Diagram Image */
+.diagramImage {
+  width: 100%;
+  height: 300px;
+  border-radius: var(--sem-radius-medium);
+  overflow: hidden;
+  background: var(--sem-color-background-neutral-weak);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.diagramImage img {
+  height: 100%;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Token List (Sticky) */
+.tokenListSticky {
+  display: flex;
+  flex-direction: row;
+  gap: var(--sem-layout-spacing-2x-large);
+}
+
+/* Left Panel — sticky, viewport height 기반 */
+.leftPanel {
+  width: 200px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-2x-large);
+  position: sticky;
+  top: var(--sem-layout-spacing-4x-large);
+  align-self: flex-start;
+  height: calc(100vh - var(--sem-layout-spacing-4x-large) * 2);
+  overflow: hidden;
+}
+
+.tokenListHeader {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-2x-large);
+}
+
+/* Dark/Light Toggle */
+.themeToggle {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  background: var(--sem-color-surface-neutral-weakest);
+  border-radius: var(--sem-radius-medium);
+  padding: var(--sem-layout-spacing-2x-small);
+  gap: var(--sem-layout-spacing-2x-small);
+}
+
+.toggleButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sem-layout-spacing-2x-small);
+  padding: var(--sem-layout-spacing-3x-small) var(--sem-layout-spacing-2x-small) var(--sem-layout-spacing-3x-small) var(--sem-layout-spacing-3x-small);
+  border: none;
+  border-radius: var(--sem-radius-x-small);
+  cursor: pointer;
+  font-family: var(--sem-typography-label-pretendard-16-700-font-family);
+  font-size: var(--sem-typography-label-pretendard-16-700-font-size);
+  line-height: var(--sem-typography-label-pretendard-16-700-line-height);
+  font-weight: var(--sem-typography-label-pretendard-16-700-font-weight);
+  letter-spacing: var(--sem-typography-label-pretendard-16-700-letter-spacing);
+  transition: background 0.15s, color 0.15s;
+}
+
+.toggleButtonActive {
+  background: var(--sem-color-surface-neutral-weaker);
+  color: var(--sem-color-content-neutral-primary);
+}
+
+.toggleButtonInactive {
+  background: transparent;
+  color: var(--sem-color-content-neutral-alpha-strong);
+}
+
+.toggleIcon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggleIcon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.toggleIcon svg path,
+.toggleIcon svg circle,
+.toggleIcon svg rect {
+  fill: currentColor;
+}
+
+/* Shortcut List — 네이티브 스크롤바 숨김 */
+.shortcutList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-2x-large);
+  overflow-y: auto;
+  max-height: 100%;
+  scrollbar-width: none;
+}
+
+.shortcutList::-webkit-scrollbar {
+  display: none;
+}
+
+/* 커스텀 스크롤바 */
+.scrollThumb {
+  position: absolute;
+  right: 0;
+  width: 4px;
+  border-radius: 9999px;
+  background: var(--sem-color-content-neutral-alpha-base);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+}
+
+.scrollThumbVisible {
+  opacity: 1;
+  transition: opacity 0.1s ease;
+}
+
+/* Shortcut List Wrapper */
+.shortcutListWrapper {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.lnbSection {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-2x-small);
+}
+
+.lnbSectionTitle {
+  font-size: var(--sem-typography-label-pretendard-16-700-font-size);
+  line-height: var(--sem-typography-label-pretendard-16-700-line-height);
+  font-weight: var(--sem-typography-label-pretendard-16-700-font-weight);
+  letter-spacing: var(--sem-typography-label-pretendard-16-700-letter-spacing);
+  color: var(--sem-color-content-neutral-alpha-stronger);
+}
+
+.shortcutItem {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: var(--sem-typography-label-pretendard-16-400-font-family);
+  font-size: var(--sem-typography-label-pretendard-16-400-font-size);
+  line-height: var(--sem-typography-label-pretendard-16-400-line-height);
+  font-weight: var(--sem-typography-label-pretendard-16-400-font-weight);
+  letter-spacing: var(--sem-typography-label-pretendard-16-400-letter-spacing);
+  text-align: left;
+}
+
+.shortcutItemActive {
+  color: var(--sem-color-content-brand-strong);
+}
+
+.shortcutItemInactive {
+  color: var(--sem-color-content-neutral-alpha-base);
+}
+
+.shortcutItemInactive:hover {
+  color: var(--sem-color-content-neutral-alpha-strong);
+}
+
+/* Color Set List (Vertical, 중앙 정렬) */
+.colorSetList {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sem-layout-spacing-2x-large);
+  min-width: 0;
+}
+
+/* Color Set */
+.colorSet {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-large);
+}
+
+.labelArea {
+  display: flex;
+  align-items: center;
+}
+
+.colorSetName {
+  font-size: var(--sem-typography-label-pretendard-16-700-font-size);
+  line-height: var(--sem-typography-label-pretendard-16-700-line-height);
+  font-weight: var(--sem-typography-label-pretendard-16-700-font-weight);
+  letter-spacing: var(--sem-typography-label-pretendard-16-700-letter-spacing);
+  color: var(--sem-color-content-neutral-primary);
+}
+
+/* Table */
+.table {
+  width: 666px;
+  box-sizing: border-box;
+  background: var(--sem-color-surface-neutral-weaker);
+  border-radius: var(--sem-radius-medium);
+  border: 1px solid var(--sem-color-border-neutral-alpha-weaker);
+  overflow: hidden;
+}
+
+.headerRow {
+  display: flex;
+  height: 40px;
+}
+
+.headerCell {
+  background: var(--sem-color-surface-neutral-alpha-weakest);
+  padding: var(--sem-layout-spacing-medium) var(--sem-layout-spacing-large);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--sem-typography-label-pretendard-12-700-font-size);
+  line-height: var(--sem-typography-label-pretendard-12-700-line-height);
+  font-weight: var(--sem-typography-label-pretendard-12-700-font-weight);
+  letter-spacing: var(--sem-typography-label-pretendard-12-700-letter-spacing);
+  color: var(--sem-color-content-neutral-primary);
+  box-sizing: border-box;
+  border-right: 1px solid var(--sem-color-border-neutral-alpha-weaker);
+}
+
+.headerCell:last-child {
+  border-right: none;
+}
+
+.cellSemantic {
+  width: 300px;
+}
+
+.cellReference {
+  width: 300px;
+}
+
+.cellChip {
+  width: 64px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.dataRow {
+  display: flex;
+  height: 64px;
+  border-top: 1px solid var(--sem-color-border-neutral-alpha-weaker);
+}
+
+.dataCell {
+  padding: var(--sem-layout-spacing-large);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  word-break: normal;
+  font-family: 'SF Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
+  font-size: var(--sem-typography-label-pretendard-12-400-font-size);
+  line-height: var(--sem-typography-label-pretendard-12-400-line-height);
+  font-weight: var(--sem-typography-label-pretendard-12-400-font-weight);
+  color: var(--sem-color-content-neutral-primary);
+  box-sizing: border-box;
+  border-right: 1px solid var(--sem-color-border-neutral-alpha-weaker);
+  letter-spacing: 0;
+}
+
+.dataCell:last-child {
+  border-right: none;
+}
+
+/* Chip Cell */
+.chipCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--sem-layout-spacing-medium);
+  box-sizing: border-box;
+  border-right: none;
+  background:
+    linear-gradient(to right, var(--sem-color-surface-neutral-alpha-inverse-stronger) 0%, var(--sem-color-surface-neutral-alpha-inverse-stronger) 100%),
+    repeating-conic-gradient(#808080 0% 25%, #c0c0c0 0% 50%) 0 0 / 8px 8px;
+}
+
+.chipSwatch {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--sem-radius-medium);
+  flex-shrink: 0;
+}

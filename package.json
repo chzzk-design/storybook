@@ -4,7 +4,10 @@
   "scripts": {
     "storybook": "pnpm --filter @chzzk-ds/storybook storybook",
     "build": "pnpm --filter @chzzk-ds/storybook build",
-    "convert": "node scripts/convert-css-tokens.mjs"
+    "convert": "node scripts/convert-css-tokens.mjs",
+    "generate:tokens": "node scripts/generate-manager-tokens.mjs && node scripts/generate-css-variables.mjs",
+    "prestorybook": "node scripts/generate-manager-tokens.mjs && node scripts/generate-css-variables.mjs",
+    "prebuild": "node scripts/generate-manager-tokens.mjs && node scripts/generate-css-variables.mjs"
   },
   "engines": {
     "node": ">=18.0.0"

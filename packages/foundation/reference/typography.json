@@ -49,10 +49,6 @@
             "$value": "18",
             "$type": "dimension"
           },
-          "19": {
-            "$value": "19",
-            "$type": "dimension"
-          },
           "20": {
             "$value": "20",
             "$type": "dimension"
@@ -205,11 +201,9 @@
             "$value": "0",
             "$type": "dimension"
           },
-          "": {
-            "3": {
-              "$value": "-0.30000001192092896",
-              "$type": "dimension"
-            }
+          "negative-03": {
+            "$value": "-0.3",
+            "$type": "dimension"
           }
         }
       }

@@ -1,0 +1,1280 @@
+{
+  "sem": {
+    "typography": {
+      "composite": {
+        "label": {
+          "pretendard": {
+            "10": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.10}",
+                  "lineHeight": "{sem.typography.line.height.label.12}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.10}",
+                  "lineHeight": "{sem.typography.line.height.label.12}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.10}",
+                  "lineHeight": "{sem.typography.line.height.label.12}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.10}",
+                  "lineHeight": "{sem.typography.line.height.label.12}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "11": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.11}",
+                  "lineHeight": "{sem.typography.line.height.label.13}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.11}",
+                  "lineHeight": "{sem.typography.line.height.label.13}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.11}",
+                  "lineHeight": "{sem.typography.line.height.label.13}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.11}",
+                  "lineHeight": "{sem.typography.line.height.label.13}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "12": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.12}",
+                  "lineHeight": "{sem.typography.line.height.label.14}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.12}",
+                  "lineHeight": "{sem.typography.line.height.label.14}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.12}",
+                  "lineHeight": "{sem.typography.line.height.label.14}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.12}",
+                  "lineHeight": "{sem.typography.line.height.label.14}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "13": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.13}",
+                  "lineHeight": "{sem.typography.line.height.label.15}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.13}",
+                  "lineHeight": "{sem.typography.line.height.label.15}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.13}",
+                  "lineHeight": "{sem.typography.line.height.label.15}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.13}",
+                  "lineHeight": "{sem.typography.line.height.label.15}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "14": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.14}",
+                  "lineHeight": "{sem.typography.line.height.label.16}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.14}",
+                  "lineHeight": "{sem.typography.line.height.label.16}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.14}",
+                  "lineHeight": "{sem.typography.line.height.label.16}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.14}",
+                  "lineHeight": "{sem.typography.line.height.label.16}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "15": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.15}",
+                  "lineHeight": "{sem.typography.line.height.label.17}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.15}",
+                  "lineHeight": "{sem.typography.line.height.label.17}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.15}",
+                  "lineHeight": "{sem.typography.line.height.label.17}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.15}",
+                  "lineHeight": "{sem.typography.line.height.label.17}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "16": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.16}",
+                  "lineHeight": "{sem.typography.line.height.label.18}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.16}",
+                  "lineHeight": "{sem.typography.line.height.label.18}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.16}",
+                  "lineHeight": "{sem.typography.line.height.label.18}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.16}",
+                  "lineHeight": "{sem.typography.line.height.label.18}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "17": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.17}",
+                  "lineHeight": "{sem.typography.line.height.label.19}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.17}",
+                  "lineHeight": "{sem.typography.line.height.label.19}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.17}",
+                  "lineHeight": "{sem.typography.line.height.label.19}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.17}",
+                  "lineHeight": "{sem.typography.line.height.label.19}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "18": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.18}",
+                  "lineHeight": "{sem.typography.line.height.label.20}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.18}",
+                  "lineHeight": "{sem.typography.line.height.label.20}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.18}",
+                  "lineHeight": "{sem.typography.line.height.label.20}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.label.18}",
+                  "lineHeight": "{sem.typography.line.height.label.20}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            }
+          },
+          "nemony": {
+            "10": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.label.10}",
+                "lineHeight": "{sem.typography.line.height.label.12}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "11": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.label.11}",
+                "lineHeight": "{sem.typography.line.height.label.13}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "12": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.label.12}",
+                "lineHeight": "{sem.typography.line.height.label.14}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "13": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.label.13}",
+                "lineHeight": "{sem.typography.line.height.label.15}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "14": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.label.14}",
+                "lineHeight": "{sem.typography.line.height.label.16}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "15": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.label.15}",
+                "lineHeight": "{sem.typography.line.height.label.17}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "16": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.label.16}",
+                "lineHeight": "{sem.typography.line.height.label.18}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "17": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.label.17}",
+                "lineHeight": "{sem.typography.line.height.label.19}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "18": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.label.18}",
+                "lineHeight": "{sem.typography.line.height.label.20}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            }
+          }
+        },
+        "body": {
+          "pretendard": {
+            "12": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.12}",
+                  "lineHeight": "{sem.typography.line.height.body.17}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.12}",
+                  "lineHeight": "{sem.typography.line.height.body.17}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.12}",
+                  "lineHeight": "{sem.typography.line.height.body.17}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.12}",
+                  "lineHeight": "{sem.typography.line.height.body.17}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "13": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.13}",
+                  "lineHeight": "{sem.typography.line.height.body.19}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.13}",
+                  "lineHeight": "{sem.typography.line.height.body.19}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.13}",
+                  "lineHeight": "{sem.typography.line.height.body.19}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.13}",
+                  "lineHeight": "{sem.typography.line.height.body.19}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "14": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.14}",
+                  "lineHeight": "{sem.typography.line.height.body.20}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.14}",
+                  "lineHeight": "{sem.typography.line.height.body.20}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.14}",
+                  "lineHeight": "{sem.typography.line.height.body.20}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.14}",
+                  "lineHeight": "{sem.typography.line.height.body.20}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "15": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.15}",
+                  "lineHeight": "{sem.typography.line.height.body.21}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.15}",
+                  "lineHeight": "{sem.typography.line.height.body.21}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.15}",
+                  "lineHeight": "{sem.typography.line.height.body.21}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.15}",
+                  "lineHeight": "{sem.typography.line.height.body.21}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "16": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.16}",
+                  "lineHeight": "{sem.typography.line.height.body.22}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.16}",
+                  "lineHeight": "{sem.typography.line.height.body.22}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.16}",
+                  "lineHeight": "{sem.typography.line.height.body.22}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.16}",
+                  "lineHeight": "{sem.typography.line.height.body.22}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "17": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.17}",
+                  "lineHeight": "{sem.typography.line.height.body.23}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.17}",
+                  "lineHeight": "{sem.typography.line.height.body.23}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.17}",
+                  "lineHeight": "{sem.typography.line.height.body.23}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.17}",
+                  "lineHeight": "{sem.typography.line.height.body.23}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "18": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.18}",
+                  "lineHeight": "{sem.typography.line.height.body.24}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.18}",
+                  "lineHeight": "{sem.typography.line.height.body.24}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.18}",
+                  "lineHeight": "{sem.typography.line.height.body.24}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.body.18}",
+                  "lineHeight": "{sem.typography.line.height.body.24}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            }
+          },
+          "nemony": {
+            "12": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.body.12}",
+                "lineHeight": "{sem.typography.line.height.body.17}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "13": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.body.13}",
+                "lineHeight": "{sem.typography.line.height.body.19}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "14": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.body.14}",
+                "lineHeight": "{sem.typography.line.height.body.20}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "15": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.body.15}",
+                "lineHeight": "{sem.typography.line.height.body.21}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "16": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.body.16}",
+                "lineHeight": "{sem.typography.line.height.body.22}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "17": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.body.17}",
+                "lineHeight": "{sem.typography.line.height.body.23}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "18": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.body.18}",
+                "lineHeight": "{sem.typography.line.height.body.24}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            }
+          }
+        },
+        "title": {
+          "pretendard": {
+            "20": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.20}",
+                  "lineHeight": "{sem.typography.line.height.title.28}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.20}",
+                  "lineHeight": "{sem.typography.line.height.title.28}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.20}",
+                  "lineHeight": "{sem.typography.line.height.title.28}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.20}",
+                  "lineHeight": "{sem.typography.line.height.title.28}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "22": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.22}",
+                  "lineHeight": "{sem.typography.line.height.title.30}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.22}",
+                  "lineHeight": "{sem.typography.line.height.title.30}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.22}",
+                  "lineHeight": "{sem.typography.line.height.title.30}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.22}",
+                  "lineHeight": "{sem.typography.line.height.title.30}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "24": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.24}",
+                  "lineHeight": "{sem.typography.line.height.title.32}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.24}",
+                  "lineHeight": "{sem.typography.line.height.title.32}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.24}",
+                  "lineHeight": "{sem.typography.line.height.title.32}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.24}",
+                  "lineHeight": "{sem.typography.line.height.title.32}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "26": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.26}",
+                  "lineHeight": "{sem.typography.line.height.title.34}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.26}",
+                  "lineHeight": "{sem.typography.line.height.title.34}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.26}",
+                  "lineHeight": "{sem.typography.line.height.title.34}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.title.26}",
+                  "lineHeight": "{sem.typography.line.height.title.34}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            }
+          },
+          "nemony": {
+            "20": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.title.20}",
+                "lineHeight": "{sem.typography.line.height.title.28}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "22": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.title.22}",
+                "lineHeight": "{sem.typography.line.height.title.30}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "24": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.title.24}",
+                "lineHeight": "{sem.typography.line.height.title.32}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "26": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.title.26}",
+                "lineHeight": "{sem.typography.line.height.title.34}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            }
+          }
+        },
+        "display": {
+          "pretendard": {
+            "28": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.28}",
+                  "lineHeight": "{sem.typography.line.height.display.36}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.28}",
+                  "lineHeight": "{sem.typography.line.height.display.36}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.28}",
+                  "lineHeight": "{sem.typography.line.height.display.36}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.28}",
+                  "lineHeight": "{sem.typography.line.height.display.36}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "32": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.32}",
+                  "lineHeight": "{sem.typography.line.height.display.40}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.32}",
+                  "lineHeight": "{sem.typography.line.height.display.40}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.32}",
+                  "lineHeight": "{sem.typography.line.height.display.40}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.32}",
+                  "lineHeight": "{sem.typography.line.height.display.40}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "36": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.36}",
+                  "lineHeight": "{sem.typography.line.height.display.44}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.36}",
+                  "lineHeight": "{sem.typography.line.height.display.44}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.36}",
+                  "lineHeight": "{sem.typography.line.height.display.44}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.36}",
+                  "lineHeight": "{sem.typography.line.height.display.44}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            },
+            "40": {
+              "400": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.40}",
+                  "lineHeight": "{sem.typography.line.height.display.48}",
+                  "fontWeight": "{sem.typography.font.weight.400}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "500": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.40}",
+                  "lineHeight": "{sem.typography.line.height.display.48}",
+                  "fontWeight": "{sem.typography.font.weight.500}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "600": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.40}",
+                  "lineHeight": "{sem.typography.line.height.display.48}",
+                  "fontWeight": "{sem.typography.font.weight.600}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              },
+              "700": {
+                "$value": {
+                  "fontFamily": "{sem.typography.font.style.default}",
+                  "fontSize": "{sem.typography.font.size.display.40}",
+                  "lineHeight": "{sem.typography.line.height.display.48}",
+                  "fontWeight": "{sem.typography.font.weight.700}",
+                  "letterSpacing": "{sem.typography.letter.spacing.pretendard}"
+                },
+                "$type": "typography"
+              }
+            }
+          },
+          "nemony": {
+            "28": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.display.28}",
+                "lineHeight": "{sem.typography.line.height.display.36}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "32": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.display.32}",
+                "lineHeight": "{sem.typography.line.height.display.40}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "36": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.display.36}",
+                "lineHeight": "{sem.typography.line.height.display.44}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            },
+            "40": {
+              "$value": {
+                "fontFamily": "{sem.typography.font.style.decorative}",
+                "fontSize": "{sem.typography.font.size.display.40}",
+                "lineHeight": "{sem.typography.line.height.display.48}",
+                "fontWeight": "{sem.typography.font.weight.800}",
+                "letterSpacing": "{sem.typography.letter.spacing.nemony}"
+              },
+              "$type": "typography"
+            }
+          }
+        }
+      }
+    }
+  }
+}

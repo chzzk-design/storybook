@@ -1,0 +1,16 @@
+{
+  "sem": {
+    "visibility": {
+      "only-dark-mode": {
+        "$value": true,
+        "$type": "boolean",
+        "light": false
+      },
+      "only-light-mode": {
+        "$value": false,
+        "$type": "boolean",
+        "light": true
+      }
+    }
+  }
+}

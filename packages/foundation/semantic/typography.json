@@ -265,7 +265,7 @@
             "$type": "dimension"
           },
           "pretendard": {
-            "$value": "{ref.typography.letter.spacing..3}",
+            "$value": "{ref.typography.letter.spacing.negative-03}",
             "$type": "dimension"
           }
         }

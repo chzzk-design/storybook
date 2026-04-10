@@ -1,3 +1,5 @@
+import '../src/tokens.generated.css';
+
 /** @type {import('@storybook/react').Preview} */
 const preview = {
   globalTypes: {
@@ -24,10 +26,11 @@ const preview = {
         <div
           data-theme={theme === 'light' ? 'light' : undefined}
           style={{
-            padding: '1rem',
-            background: theme === 'dark' ? '#141517' : '#ffffff',
-            color: theme === 'dark' ? '#ffffff' : '#000000',
+            padding: '32px',
+            background: 'var(--sem-color-background-neutral-base)',
+            color: 'var(--sem-color-content-neutral-primary)',
             minHeight: '100vh',
+            boxSizing: 'border-box',
           }}
         >
           <Story />

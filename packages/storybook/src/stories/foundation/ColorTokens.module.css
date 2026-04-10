@@ -1,43 +1,290 @@
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: 12px;
+.page {
+  background: var(--sem-color-background-neutral-base);
+  padding: var(--sem-layout-spacing-4x-large);
+  display: flex;
+  flex-direction: column;
+  max-width: 1932px;
+  margin: 0 auto;
+  font-family: var(--sem-typography-font-style-default), -apple-system, sans-serif;
+  letter-spacing: var(--sem-typography-letter-spacing-pretendard);
 }
 
-.swatch {
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.color {
-  height: 64px;
-}
-
-.info {
-  padding: 8px;
-  font-size: 11px;
-  font-family: monospace;
-}
-
-.name {
-  font-weight: 600;
-  word-break: break-all;
-  margin-bottom: 4px;
-}
-
-.value {
-  opacity: 0.6;
-}
-
+/* Section — 간격을 padding으로 처리 */
 .section {
-  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Title Group */
+.titleGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-small);
+}
+
+.pageTitle {
+  font-size: var(--sem-typography-title-pretendard-26-700-font-size);
+  line-height: var(--sem-typography-title-pretendard-26-700-line-height);
+  font-weight: var(--sem-typography-title-pretendard-26-700-font-weight);
+  letter-spacing: var(--sem-typography-title-pretendard-26-700-letter-spacing);
+  color: var(--sem-color-content-neutral-primary);
+  margin: 0;
+}
+
+/* Description — Bullet List */
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-4x-small);
+  margin: 0;
+  padding: 0;
+}
+
+.bulletList {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sem-layout-spacing-2x-small);
+}
+
+.dot {
+  width: 3px;
+  height: 3px;
+  min-width: 3px;
+  border-radius: 50%;
+  background: var(--sem-color-content-neutral-alpha-strongest);
+  margin-top: 8px;
+}
+
+.bulletText {
+  font-size: var(--sem-typography-body-pretendard-14-400-font-size);
+  line-height: var(--sem-typography-body-pretendard-14-400-line-height);
+  font-weight: var(--sem-typography-body-pretendard-14-400-font-weight);
+  letter-spacing: var(--sem-typography-body-pretendard-14-400-letter-spacing);
+  color: var(--sem-color-content-neutral-alpha-strongest);
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background: var(--sem-color-border-neutral-alpha-weak);
+  border: none;
+  margin: 0;
+}
+
+/* Section Title Group */
+.sectionTitleGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-small);
 }
 
 .sectionTitle {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 12px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: var(--sem-typography-title-pretendard-20-700-font-size);
+  line-height: var(--sem-typography-title-pretendard-20-700-line-height);
+  font-weight: var(--sem-typography-title-pretendard-20-700-font-weight);
+  letter-spacing: var(--sem-typography-title-pretendard-20-700-letter-spacing);
+  color: var(--sem-color-content-neutral-primary);
+  margin: 0;
+}
+
+.sectionDescription {
+  font-size: var(--sem-typography-body-pretendard-14-400-font-size);
+  line-height: var(--sem-typography-body-pretendard-14-400-line-height);
+  font-weight: var(--sem-typography-body-pretendard-14-400-font-weight);
+  letter-spacing: var(--sem-typography-body-pretendard-14-400-letter-spacing);
+  color: var(--sem-color-content-neutral-alpha-strongest);
+  margin: 0;
+}
+
+/* Token List (Sticky) — 좌측 LNB + 우측 컬러 세트 */
+.tokenListSticky {
+  display: flex;
+  flex-direction: row;
+  gap: var(--sem-layout-spacing-2x-large);
+}
+
+/* Left Panel — sticky */
+.leftPanel {
+  width: 200px;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-2x-large);
+  position: sticky;
+  top: var(--sem-layout-spacing-4x-large);
+  align-self: flex-start;
+}
+
+/* Shortcut List */
+.shortcutList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-2x-small);
+}
+
+.shortcutItem {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: var(--sem-typography-label-pretendard-16-400-font-family);
+  font-size: var(--sem-typography-label-pretendard-16-400-font-size);
+  line-height: var(--sem-typography-label-pretendard-16-400-line-height);
+  font-weight: var(--sem-typography-label-pretendard-16-400-font-weight);
+  letter-spacing: var(--sem-typography-label-pretendard-16-400-letter-spacing);
+  text-align: left;
+}
+
+.shortcutItemActive {
+  color: var(--sem-color-content-brand-strong);
+}
+
+.shortcutItemInactive {
+  color: var(--sem-color-content-neutral-alpha-base);
+}
+
+.shortcutItemInactive:hover {
+  color: var(--sem-color-content-neutral-alpha-strong);
+}
+
+/* Color Set List (Vertical, 1열, 중앙 정렬) */
+.colorSetListVertical {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--sem-layout-spacing-2x-large);
+  min-width: 0;
+}
+
+/* Color Set */
+.colorSet {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sem-layout-spacing-large);
+}
+
+.labelArea {
+  display: flex;
+  align-items: center;
+}
+
+.colorSetName {
+  font-size: var(--sem-typography-label-pretendard-16-700-font-size);
+  line-height: var(--sem-typography-label-pretendard-16-700-line-height);
+  font-weight: var(--sem-typography-label-pretendard-16-700-font-weight);
+  letter-spacing: var(--sem-typography-label-pretendard-16-700-letter-spacing);
+  color: var(--sem-color-content-neutral-primary);
+}
+
+/* Table */
+.table {
+  width: 449px;
+  box-sizing: border-box;
+  background: var(--sem-color-surface-neutral-weaker);
+  border-radius: var(--sem-radius-medium);
+  border: 1px solid var(--sem-color-border-neutral-alpha-weaker);
+  overflow: hidden;
+}
+
+.headerRow {
+  display: flex;
+  height: 40px;
+}
+
+.headerCell {
+  background: var(--sem-color-surface-neutral-alpha-weakest);
+  padding: var(--sem-layout-spacing-medium) var(--sem-layout-spacing-large);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--sem-typography-label-pretendard-12-700-font-size);
+  line-height: var(--sem-typography-label-pretendard-12-700-line-height);
+  font-weight: var(--sem-typography-label-pretendard-12-700-font-weight);
+  letter-spacing: var(--sem-typography-label-pretendard-12-700-letter-spacing);
+  color: var(--sem-color-content-neutral-primary);
+  box-sizing: border-box;
+  border-right: 1px solid var(--sem-color-border-neutral-alpha-weaker);
+}
+
+.headerCell:last-child {
+  border-right: none;
+}
+
+.cellName {
+  width: 300px;
+}
+
+.cellHex {
+  width: 83px;
+}
+
+.cellChip {
+  width: 64px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.dataRow {
+  display: flex;
+  height: 64px;
+  border-top: 1px solid var(--sem-color-border-neutral-alpha-weaker);
+}
+
+.dataCell {
+  padding: var(--sem-layout-spacing-large);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  word-break: normal;
+  font-family: 'SF Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
+  font-size: var(--sem-typography-label-pretendard-12-400-font-size);
+  line-height: var(--sem-typography-label-pretendard-12-400-line-height);
+  font-weight: var(--sem-typography-label-pretendard-12-400-font-weight);
+  color: var(--sem-color-content-neutral-primary);
+  box-sizing: border-box;
+  border-right: 1px solid var(--sem-color-border-neutral-alpha-weaker);
+  letter-spacing: 0;
+}
+
+.dataCell:last-child {
+  border-right: none;
+}
+
+/* Chip Cell */
+.chipCell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--sem-layout-spacing-medium);
+  box-sizing: border-box;
+  border-right: none;
+  background:
+    linear-gradient(to right, var(--sem-color-surface-neutral-alpha-inverse-stronger) 0%, var(--sem-color-surface-neutral-alpha-inverse-stronger) 100%),
+    repeating-conic-gradient(#808080 0% 25%, #c0c0c0 0% 50%) 0 0 / 8px 8px;
+}
+
+.chipSwatch {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--sem-radius-medium);
+  flex-shrink: 0;
+}
+
+/* Hex + Opacity 두 줄 표기 */
+.hexGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.hexOpacity {
+  color: var(--sem-color-content-neutral-alpha-strong);
+  font-size: var(--sem-typography-label-pretendard-12-400-font-size);
+  line-height: var(--sem-typography-label-pretendard-12-400-line-height);
 }
