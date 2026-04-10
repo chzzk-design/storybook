@@ -68,7 +68,7 @@ maps/ 디렉토리 대신 **규칙 기반 변환**을 사용한다.
 ### [1] 구조 파악
 
 1. 피그마 URL에서 fileKey와 nodeId를 추출한다.
-2. `mcp__plugin_figma_figma__get_metadata`로 전체 화면의 노드 트리를 조회한다.
+2. `mcp__Framelink_Figma_MCP__get_figma_data`로 전체 화면의 노드 트리를 조회한다 (depth 파라미터로 탐색 깊이 조절).
 3. 최상위 프레임 내 하위 섹션(프레임) 목록을 추출한다.
 4. 각 섹션의 이름, nodeId, 크기를 정리하여 사용자에게 보여준다.
 5. 사용자가 목록을 승인/수정한 뒤 다음 단계로 진행한다.
@@ -86,7 +86,7 @@ maps/ 디렉토리 대신 **규칙 기반 변환**을 사용한다.
 
 #### 리소스 점검
 
-1. 각 섹션의 `mcp__plugin_figma_figma__get_design_context`를 조회한다.
+1. 각 섹션의 `mcp__Framelink_Figma_MCP__get_figma_data`를 조회한다.
 2. 피그마가 참조하는 **모든 리소스**를 추출한다:
    - **색상 토큰** — `var(--xxx)` 형태의 CSS 변수 참조
    - **반지름 토큰** — `var(--small)`, `var(--circular)` 등
@@ -174,7 +174,7 @@ maps/ 디렉토리 대신 **규칙 기반 변환**을 사용한다.
 
 각 섹션을 순서대로 독립 구현한다:
 
-1. `mcp__plugin_figma_figma__get_design_context(섹션 nodeId)`로 디자인 데이터를 가져온다.
+1. `mcp__Framelink_Figma_MCP__get_figma_data(섹션 nodeId)`로 디자인 데이터를 가져온다.
 2. 필요한 에셋은 `mcp__Framelink_Figma_MCP__download_figma_images`로 다운로드한다.
 3. **반드시 다음 규칙을 지킨다:**
 
@@ -267,9 +267,9 @@ maps/ 디렉토리 대신 **규칙 기반 변환**을 사용한다.
 
 #### B. 시각적 검증 (Diff 루프)
 
-1. **diff 시작 전**, `mcp__plugin_figma_figma__get_design_context`로 해당 섹션의 **정확한 치수**(height, gap, padding, margin)를 추출한다.
+1. **diff 시작 전**, `mcp__Framelink_Figma_MCP__get_figma_data`로 해당 섹션의 **정확한 치수**(height, gap, padding, margin)를 추출한다.
 2. 추출한 치수를 기준으로 CSS 값을 **먼저 맞춘 뒤** diff를 시작한다 — 불필요한 반복을 최소화한다.
-3. 피그마 `get_screenshot`으로 원본 스크린샷을 캡처한다.
+3. `mcp__Framelink_Figma_MCP__download_figma_images`로 원본 스크린샷을 캡처한다.
 4. 구현 결과를 같은 해상도로 스크린샷 캡처한다.
 5. `tools/diff.js`로 두 이미지를 비교하여 히트맵을 생성한다.
 6. 히트맵의 빨간 영역을 기반으로 CSS를 자동 수정한다.
