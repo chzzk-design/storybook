@@ -11,5 +11,9 @@
   },
   "engines": {
     "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0"
   }
 }
