@@ -196,6 +196,7 @@ function buildLnbSections(groups) {
 // Dark/Light toggle icons — 디자인 시스템 아이콘 활용
 import darkModeIconRaw from '../../../../icons/svg/icon-dark-mode.svg?raw';
 import lightModeIconRaw from '../../../../icons/svg/icon-light-mode.svg?raw';
+import semanticColorDiagram from '../../assets/semantic-color-diagram.png';
 
 function MoonIcon({ className }) {
   return (
@@ -413,7 +414,7 @@ export const SemanticColor = {
         {/* Diagram Image */}
         <div className={styles.section} style={{ paddingBottom: '32px' }}>
           <div className={styles.diagramImage}>
-          <img src="/semantic-color-diagram.png" alt="Semantic Color Diagram" />
+          <img src={semanticColorDiagram} alt="Semantic Color Diagram" />
         </div>
         </div>
 
